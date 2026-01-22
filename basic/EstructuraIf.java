@@ -8,10 +8,10 @@ public class EstructuraIf {
         Sintaxis de if
 
         if(condicion){
-        //bloque de codigo
+        //bloque de codigo verdadera
         }
         else{
-        //bloque de codigo    
+        //bloque de codigo falsa
         }
         */
         //ejemplo
@@ -27,6 +27,17 @@ public class EstructuraIf {
         ¿Porque?
         1 no es mayor que 2
         */
+
+        //if simple
+        if(5>1) System.out.println("true");
+        else System.out.println("false");
+
+        //if's simples 
+        if(5>1) System.out.println("true");
+        if(1>0) System.out.println("true");
+        
+        
+
     }
     
 }
